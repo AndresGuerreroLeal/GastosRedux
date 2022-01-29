@@ -1,0 +1,6 @@
+.main__añadir {
+  position: fixed;
+  bottom: 1%;
+  right: 2%;
+  cursor: pointer;
+}

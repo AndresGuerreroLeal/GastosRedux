@@ -1,0 +1,93 @@
+.modal {
+  position: absolute;
+  background-color: rgb(0 0 0 / 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.modal .cerrar-modal {
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.modal .cerrar-modal img {
+  width: 100%;
+}
+
+.modal .form {
+  position: relative;
+  background: #ccc;
+  height: 600px;
+  width: 300px;
+  border-radius: 20px;
+  padding: 40px;
+  transition: all 0.5s ease;
+}
+
+@media (min-width: 768px) {
+  .modal .form {
+    width: 500px;
+  }
+}
+
+.modal .form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+
+.modal .form .form__campo {
+  display: grid;
+  margin-bottom: 2rem;
+}
+
+.modal .form label {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.modal .form input[type="text"],
+.modal .form input[type="number"] {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: none;
+  flex: 1;
+  font-size: 1.6rem;
+}
+
+.form input[type="submit"] {
+  border: none;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  width: 60%;
+  margin: 2rem auto;
+  transition: all 300ms ease;
+  background: white;
+}
+
+.form input[type="submit"]:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.form select {
+  flex: 1;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: white;
+}
