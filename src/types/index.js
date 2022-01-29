@@ -5,9 +5,6 @@ export const OBTENER_GASTO = "OBTENER_GASTO";
 export const EDITAR_GASTO = "EDITAR_GASTO";
 export const COSTO_TOTAL = "COSTO_TOTAL";
 
-export const FILTRO_CONTACTOS = "FILTRO_CONTACTOS";
-export const OBTENER_FILTRO = "OBTENER_FILTRO";
-
 export const MOSTRAR_ALERTA = "MOSTRAR_ALERTA";
 export const OCULTAR_ALERTA = "OCULTAR_ALERTA";
 

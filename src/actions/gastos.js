@@ -10,7 +10,6 @@ import {
   OCULTAR_MODAL,
   COSTO_TOTAL,
   FILTRO_GASTOS,
-  OBTENER_FILTRO,
 } from "../types";
 
 export const agregarGastoAction = (producto) => (dispatch) => {
