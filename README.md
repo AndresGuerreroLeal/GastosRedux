@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# GastosRedux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<details>
+  <summary>Tabla de contenidos</summary>
+  <ol>
+    <li>
+      <a href="#sobre-el-proyecto">Sobre el proyecto</a>
+      <ul>
+        <li><a href="#herramientas-utilizadas">Herramientas Utilizadas</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#iniciar">Iniciar</a>
+      <ul>
+        <li><a href="#correr-aplicación-de-manera-local">Correr aplicación de manera local </a></li>
+      </ul>
+    </li>
+    <li><a href="#funcionalidades">Funcionalidades</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ol>
+</details>
 
-## Available Scripts
 
-In the project directory, you can run:
+## Sobre el proyecto
 
-### `npm start`
+GastosRedux es una plataforma de control de gastos administrada con el modelo Redux, dando una flexibilidad y escalabilidad al proyecto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![product-screenshot](https://i.ibb.co/F7hWvGj/controlgastos.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Herramientas Utilizadas
 
-### `npm test`
+Las herramientas utilizadas fueron:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [React.js](https://reactjs.org/)
+* [Redux](https://es.redux.js.org/)
 
-### `npm run build`
+Los estilos se manejaron con CSS nativo y el flujo del estado para React se realizó con useContext y useReducer.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Iniciar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para poder ejecutar el proyecto de manera local dejaré los siguientes pasos para su ejecución correctamente.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Correr aplicación de manera local 
 
-### `npm run eject`
+1. Clonar el repo
+   ```
+   git clone https://github.com/AndresGuerreroLeal/GastosRedux.git
+   ```
+   
+2. Instalar NPM packages
+   ```
+   npm install
+   ```
+   
+## Funcionalidades
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [x] Añadir gastos.
+- [x] Manejo de presupuestos del usuario.
+- [x] Eliminación de gastos.  
+- [x] Edición de gastos.
+- [x] Administración de redux
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Funcionalidades Futuras
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [ ] Soporte de múltiples idiomas.
+    - [ ] Inglés.
+- [ ] Modo oscuro.
+- [ ] Autenticación.
+- [ ] Registro de usuarios.
+- [ ] Añadir foto de perfil para los usuarios registrados.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contacto
 
-## Learn More
+Linkedin: https://www.linkedin.com/in/andres-guerrero-5731311ba/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Correo: afguerreroleal12@gmail.com
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📌 Los tiempos de carga dependerá del servicio de hosting donde fue alojado. 
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deploy: https://gastosredux.netlify.app/
