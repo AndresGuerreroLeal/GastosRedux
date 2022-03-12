@@ -78,4 +78,4 @@ Correo: afguerreroleal12@gmail.com
 
 📌 Los tiempos de carga dependerá del servicio de hosting donde fue alojado. 
 
-Deploy: https://gastosredux.netlify.app/
+Deploy: <a href="https://gastosredux.netlify.app/ target="_blank">https://gastosredux.netlify.app/</a>
