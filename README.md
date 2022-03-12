@@ -16,6 +16,7 @@
       </ul>
     </li>
     <li><a href="#funcionalidades">Funcionalidades</a></li>
+    <li><a href="#funcionalidades-futuras">Funcionalidades Futuras</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ol>
 </details>
